@@ -9,6 +9,7 @@ import nltk
 import random
 import string  # to process standard python strings
 
+# for reading text file
 f = open('chatbot1.txt', 'r', errors='ignore')
 m = open('chatbot2.txt', 'r', errors='ignore')
 checkpoint = "./chatbot_weights.ckpt"
